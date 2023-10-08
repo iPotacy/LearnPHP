@@ -1,0 +1,62 @@
+Fungsi Berguna untuuk Array di PHP
+
+Seperti halnya string dan angka, 
+PHP menyediakan banyak fungsi yang sangat berguna untuk array. 
+Kita telah melihat count(), in_array(), array_search()– mari kita lihat lebih lanjut:
+
+1. is_array()
+   untuk memeriksa apakah suatu variabel adalah array
+
+2. array_unique()
+   untuk menghapus nilai duplikat dari array
+
+3. array_search()
+   untuk mencari nilai dalam array dan mengembalikan kuncinya
+
+4. array_reverse()
+   untuk membalikkan array
+
+5. array_reduce()
+   untuk mengurangi array menjadi satu nilai menggunakan fungsi panggilan balik
+
+6. array_map()
+   untuk menerapkan fungsi panggilan balik 
+   ke setiap item dalam array. 
+   Biasanya digunakan untuk membuat array baru 
+   dengan memodifikasi nilai array yang sudah ada, 
+   tanpa mengubahnya.
+
+7. array_filter()
+   untuk memfilter array ke satu nilai menggunakan fungsi panggilan balik
+
+8. max()
+   untuk mendapatkan nilai maksimum yang terkandung dalam array
+
+9. min()
+   untuk mendapatkan nilai minimum yang terkandung dalam array
+
+10. array_rand()
+    untuk mendapatkan item acak dari array
+
+11. array_count_values()
+    untuk menghitung semua nilai dalam array
+
+12. mplode()
+    untuk mengubah array menjadi string
+
+13. array_pop()
+    untuk menghapus item terakhir dari array dan mengembalikan nilainya
+
+14. array_shift()
+    sama seperti array_pop() tetapi menghapus item pertama, bukan yang terakhir
+
+15. sort()
+    untuk mengurutkan array
+
+16. rsort()
+    untuk mengurutkan array dalam urutan terbalik
+
+17. array_walk()
+    mirip dengan array_map() 
+    melakukan sesuatu untuk setiap item dalam array, 
+    tetapi selain itu dapat mengubah nilai dalam array yang ada.

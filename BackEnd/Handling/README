@@ -1,0 +1,21 @@
+Penanganan Kesalahan (Error Handling)
+
+Dalam PHP, ada beberapa cara untuk menangani kesalahan (error).
+Dua metode utama adalah try-catch dan set_error_handler. 
+Berikut adalah penjelasan dan contoh penggunaan keduanya:
+
+1. Menggunakan try-catch (Exception Handling):
+
+try-catch digunakan untuk menangani kesalahan yang terjadi dalam blok kode tertentu. 
+Saat Anda menemui kesalahan (exception), Anda dapat mengambil tindakan tertentu.
+
+2. Menggunakan set_error_handler:
+
+set_error_handler memungkinkan Anda untuk menetapkan fungsi penanganan kesalahan 
+khusus yang akan dipanggil saat kesalahan PHP muncul.
+
+Anda dapat memilih metode yang sesuai berdasarkan situasi Anda. 
+try-catch biasanya digunakan untuk menangani exception yang spesifik, 
+sedangkan set_error_handler digunakan untuk menangani pesan kesalahan PHP. 
+Keduanya dapat membantu Anda melacak, melaporkan, 
+dan menangani kesalahan dengan lebih baik dalam aplikasi PHP Anda.
