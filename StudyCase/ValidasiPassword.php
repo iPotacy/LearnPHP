@@ -12,7 +12,7 @@ if (
    )
 {
   echo "Password valid.";
-} 
+}
 else 
 {
   echo "Password tidak memenuhi kriteria.";
